@@ -92,7 +92,7 @@ h3 {
     }
 
     .section_grid_menu {
-        grid-template-rows: 430px;
+        grid-template-rows: 1fr;
     }
 
     .title_menu::before {
