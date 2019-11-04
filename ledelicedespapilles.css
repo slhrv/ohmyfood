@@ -1,0 +1,147 @@
+h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+/*
+ 	
+ 	
+ 	
+ 	   ####  #####   ####  ###### ##   ###   ##   ##
+ 	  ##  ## ##     ##  ##   ##   ##  ## ##  ###  ##
+ 	  ###    ##    ##    #   ##   ## ##   ## ###  ##
+ 	   ####  ##### ##        ##   ## ##   ## ## # ##
+ 	     ### ##    ##        ##   ## ##   ## ## # ##
+ 	  #   ## ##    ##    #   ##   ## ##   ## ##  ###
+ 	  ##  ## ##     ##  ##   ##   ##  ## ##  ##  ###
+ 	   ####  #####   ####    ##   ##   ###   ##   ##
+ 	
+ 	
+ */
+
+.section_grid_menu {
+    grid-template-rows: 900px;
+}
+
+.article_menu_3 {
+    background-color: #F9F9F9;
+}
+
+.titre1 {
+    -webkit-text-fill-color: transparent;
+    font-family: 'Niconne',cursive;
+    font-size: 4em;
+    font-weight: lighter;
+    background: -webkit-linear-gradient(left ,#0936E0, #1D91FA);
+    -webkit-background-clip: text;
+}
+
+.list_nom {
+    padding-left: 0;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.list_prix {
+    font-weight: 400;
+}
+
+/*
+	
+	
+	
+	##     ##   ###
+	###   ###  ## ##
+	###   ### ##   ##
+	#### #### ##   ##
+	## # # ## ##   ##
+	## ### ## ## # ##
+	##  #  ##  ## ##
+	##  #  ##   ####
+	                #
+	
+*/
+
+@media(min-width:319px) and (max-width:767px) {
+    .article_grid {
+        margin: 2em 1em;
+    }
+
+    .section_grid_menu {
+        grid-template-rows: 430px;
+    }
+
+    .title_menu::before {
+        left: 65px;
+    }
+
+    .title_menu:hover::before {
+        left: 65px;
+        width: 11em;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .section_grid_menu {
+        grid-template-rows: 750px;
+    }
+
+    .article_grid {
+        margin: 1em 2em;
+    }
+
+    .title_menu::before {
+        left: 8em;
+    }
+
+    .title_menu:hover::before {
+        left: 8em;
+        width: 10.5em;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1400px) {
+    .section_grid_menu {
+        grid-template-rows: 950px;
+    }
+
+    .article_grid {
+        margin: 3em 2em;
+    }
+
+    .title_menu::before {
+        left: 7em;
+    }
+
+    .title_menu:hover::before {
+        left: 7em;
+        width: 12em;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .section_grid_menu {
+        grid-template-rows: 2100px;
+    }
+
+    .article_grid {
+        margin: 5em 2em;
+    }
+
+    .title_menu {
+        font-size: 3em;
+    }
+
+    .list_menu {
+        padding: 0 6em;
+    }
+
+    .title_menu::before {
+        left: 7em;
+    }
+
+    .title_menu:hover::before {
+        left: 7em;
+        width: 13.7em;
+    }
+}
