@@ -107,6 +107,11 @@ h3 {
         left: 60px;
         width: 14em;
     }
+
+    .list_nom,
+    .list_prix {
+        font-size: 0.3em;
+    }
 }
 
 @media(min-width:768px) and (max-width:1024px) {
