@@ -18,7 +18,7 @@
     .section_grid_menu {
         display: grid;
         margin: 0;
-        grid-template-columns: 319px;
+        grid-template-columns: 300px;
         grid-gap: 5em 0;
     }
 
