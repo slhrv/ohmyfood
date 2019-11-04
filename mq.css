@@ -91,11 +91,6 @@
         padding: 0 0.2em;
     }
 
-    .list_nom,
-    .list_prix {
-        font-size: 0.5em;
-    }
-
     aside {
         width: 300px;
     }
