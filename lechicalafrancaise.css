@@ -21,6 +21,10 @@ h3 {
     grid-template-rows: 800px;
 }
 
+.article_menu {
+    font-family: 'Montserrat',cursive;
+}
+
 .article_menu_2 {
     background-color: #FFF5FE;
 }
