@@ -94,7 +94,7 @@ body {
     }
 
     .section_grid_menu {
-        grid-template-rows: 500px;
+        grid-template-rows: 1fr;
     }
 
     .title_menu::before {
