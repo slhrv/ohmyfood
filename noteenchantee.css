@@ -103,7 +103,7 @@ body {
 
     .title_menu:hover::before {
         left: 60px;
-        width: 9em;
+        width: 115px;
     }
 }
 
