@@ -367,14 +367,14 @@ main {
 
 .list_nom {
     padding-left: 0;
-    font-size: 1em;
+    font-size: 15px;
     font-weight: lighter;
 }
 
 .list_prix {
     padding-left: 0;
     text-align: right;
-    font-size: 1em;
+    font-size: 15px;
     font-weight: lighter;
 }
 
