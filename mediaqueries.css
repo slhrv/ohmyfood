@@ -10,7 +10,7 @@
         margin-bottom: 4em;
     }
 
-    .title_footer a {
+    .footer_list a {
         font-size: 1.5em;
     }
 
@@ -184,10 +184,6 @@
     .list_prix {
         font-size: 0.9em;
     }
-
-    aside {
-        width: 650px;
-    }
 }
 
 @media screen and (min-width:1024px) and (max-width:1400px) {
@@ -262,10 +258,6 @@
     .list_prix {
         font-size: 1.2em;
     }
-
-    aside {
-        width: 650px;
-    }
 }
 
 @media screen and (min-width:1600px) {
@@ -337,9 +329,5 @@
     .list_nom,
     .list_prix {
         font-size: 2.3em;
-    }
-
-    aside {
-        width: 650px;
     }
 }

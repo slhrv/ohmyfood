@@ -30,7 +30,6 @@ li {
 
 .header {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 10em;
@@ -41,14 +40,6 @@ li {
 
 header img {
     width: 25em;
-}
-
-.header_title {
-    margin: 0;
-    font-size: 5em;
-    font-weight: 600;
-    letter-spacing: -0.05em;
-    color: #FCCA47;
 }
 
 /*
@@ -430,12 +421,10 @@ aside {
 
 aside h5::after {
     content: "\2026";
-    display: inline-block;
     position: absolute;
     padding-left: 10px;
     overflow: hidden;
-    vertical-align: bottom;
-    animation: ellipsis steps(5,end) 1.3s infinite;
+    animation: ellipsis steps(4,end) 1.3s infinite;
 }
 
 @keyframes ellipsis {
@@ -444,7 +433,7 @@ aside h5::after {
     }
 
     100% {
-        width: 1em;
+        width: 0.9em;
     }
 }
 
@@ -542,6 +531,6 @@ footer {
     }
 }
 
-.title_footer:hover {
+.footer_list li:hover {
     animation: shake 0.5s infinite;
 }
