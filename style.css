@@ -1,12 +1,8 @@
 body {
-    margin: 0 auto;
+    margin: 0;
     font-family: 'Montserrat',sans-serif;
     font-size: 0.5em;
     background-color: #fff;
-}
-
-a {
-    text-decoration: none;
 }
 
 li {
@@ -224,13 +220,13 @@ main {
     font-size: 5em;
 }
 
-.first_title_h2 {
+.first_title_h1 {
     margin-top: 0;
     font-family: 'Niconne',cursive;
     color: #3E141A;
 }
 
-.first_title_h3 {
+.first_title_h2 {
     text-transform: uppercase;
     font-family: 'Tillana',cursive;
     color: #3E141A;
@@ -240,7 +236,7 @@ main {
     width: 11em;
 }
 
-.second_title_h2 {
+.second_title_h1 {
     -webkit-text-fill-color: transparent;
     font-family: 'Croissant One',cursive;
     font-size: 3.5em;
@@ -248,12 +244,12 @@ main {
     -webkit-background-clip: text;
 }
 
-.second_title_h3 {
+.second_title_h2 {
     font-family: 'Merriweather',serif;
     color: #D8852E;
 }
 
-.third_title_h2 {
+.third_title_h1 {
     -webkit-text-fill-color: transparent;
     font-family: 'Niconne',cursive;
     font-weight: lighter;
@@ -261,12 +257,12 @@ main {
     -webkit-background-clip: text;
 }
 
-.third_title_h3 {
+.third_title_h2 {
     font-family: 'Bad Script',cursive;
     color: #399DFA;
 }
 
-.fourth_title_h2 {
+.fourth_title_h1 {
     -webkit-text-fill-color: transparent;
     font-family: 'Kaushan Script',cursive;
     font-size: 5em;
@@ -274,7 +270,7 @@ main {
     -webkit-background-clip: text;
 }
 
-.fourth_title_h3 {
+.fourth_title_h2 {
     font-family: 'Bad Script',cursive;
     color: #72BF56;
 }
@@ -294,7 +290,7 @@ main {
 
 */
 
-.titre1 {
+.titre_article{
     text-align: center;
     grid-column: 1/6;
     grid-row: 2;
@@ -419,7 +415,14 @@ aside {
     background-color: #579C87;
 }
 
-aside h5::after {
+.aside_h3 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+}
+
+.aside_h3::after {
     content: "\2026";
     position: absolute;
     padding-left: 10px;
@@ -435,13 +438,6 @@ aside h5::after {
     100% {
         width: 0.9em;
     }
-}
-
-h5 {
-    margin: 0;
-    font-size: 3em;
-    font-weight: lighter;
-    letter-spacing: 0.1em;
 }
 
 /*
@@ -464,7 +460,6 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    height: auto;
     margin: 0 15%;
     padding: 0 1em;
     border-top: solid 0.1em #9acc84;
@@ -475,14 +470,15 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0;
+    align-items: center;
+    height: 40px;
 }
 
 .footer_list a {
-    margin: 0;
     font-size: 2.5em;
     letter-spacing: 0.1em;
     color: #FCCA47;
+    text-decoration: none;
 }
 
 @keyframes shake {
@@ -531,6 +527,6 @@ footer {
     }
 }
 
-.footer_list li:hover {
+.footer_list a:hover {
     animation: shake 0.5s infinite;
 }

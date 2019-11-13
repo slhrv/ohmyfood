@@ -1,4 +1,4 @@
-@media screen and (min-width:319px) and (max-width:767px) {
+@media all and (max-width:768px) {
     .header,
     footer {
         width: auto;
@@ -11,7 +11,7 @@
     }
 
     .footer_list a {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     .section_grid_index,
@@ -26,7 +26,7 @@
         grid-template-rows: 450px 450px 450px 450px;
     }
 
-     .section_grid_menu  {
+    .section_grid_menu  {
         margin-bottom: 5em;
      }
 
@@ -35,13 +35,13 @@
         height: 450px;
     }
 
-    .first_title_h2,
-    .third_title_h2 {
+    .first_title_h1,
+    .third_title_h1 {
         font-size: 4em;
     }
 
-    .second_title_h2,
-    .fourth_title_h2 {
+    .second_title_h1,
+    .fourth_title_h1 {
         font-size: 3.5em;
     }
 
@@ -78,8 +78,8 @@
         width: 2em;
     }
 
-    .titre1,
-    .titre2 {
+    .titre_article,
+    .titre_article_bas {
         font-size: 1.2em;
     }
 
@@ -101,7 +101,7 @@
     }
 }
 
-@media screen and (min-width:768px) and (max-width:1024px) {
+@media all and (min-width:768px) and (max-width:1024px) {
     .header,
     footer {
         width: auto;
@@ -124,13 +124,13 @@
         grid-template-columns: 700px;
     }
 
-    .first_title_h2,
-    .third_title_h2 {
+    .first_title_h1,
+    .third_title_h1 {
         font-size: 4em;
     }
 
-    .second_title_h2,
-    .fourth_title_h2 {
+    .second_title_h1,
+    .fourth_title_h1 {
         font-size: 3.8em;
     }
 
@@ -163,7 +163,7 @@
         font-size: 2em;
     }
 
-    .titre1 {
+    .titre_article {
         font-size: 3em;
     }
 
@@ -186,7 +186,7 @@
     }
 }
 
-@media screen and (min-width:1024px) and (max-width:1400px) {
+@media all and (min-width:1024px) and (max-width:1400px) {
     .header,
     footer {
         margin-right: auto;
@@ -237,7 +237,7 @@
         font-size: 2em;
     }
 
-    .titre1 {
+    .titre_article {
         font-size: 3em;
     }
 
@@ -260,7 +260,7 @@
     }
 }
 
-@media screen and (min-width:1600px) {
+@media all and (min-width:1600px) {
     .header,
     footer {
         width: 1500px;
@@ -312,8 +312,8 @@
         font-size: 3em;
     }
 
-    .titre1,
-    .titre2 {
+    .titre_article,
+    .titre_article_bas {
         font-size: 5em;
     }
 
