@@ -30,9 +30,10 @@
         margin-bottom: 5em;
      }
 
-    .menu {
+    .article_index {
         width: 300px;
         height: 450px;
+        grid-column: 1;
     }
 
     .first_title_h1,
@@ -43,10 +44,6 @@
     .second_title_h1,
     .fourth_title_h1 {
         font-size: 3.5em;
-    }
-
-    .article_index {
-        grid-column: 1;
     }
 
     .article_first {
@@ -134,7 +131,7 @@
         font-size: 3.8em;
     }
 
-    .menu {
+    .article_index {
         width: 300px;
         height: 450px;
     }
@@ -208,7 +205,7 @@
         grid-template-columns: 900px;
     }
 
-    .menu {
+    .article_index {
         width: 450px;
         height: 600px;
     }
@@ -283,7 +280,7 @@
         grid-template-columns: 1400px;
     }
 
-    .menu {
+    .article_index {
         width: 600px;
         height: 600px;
     }

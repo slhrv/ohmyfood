@@ -21,7 +21,7 @@ body {
     grid-template-rows: 1000px;
 }
 
-.article_menu_1 {
+.article_menu {
     background-color: #FCDFDB;
 }
 
@@ -71,6 +71,10 @@ body {
 .title_menu:hover::before {
     width: 9em;
     background-color: #3E141A;
+}
+
+.list_prix {
+    font-weight: bold;
 }
 
 /*

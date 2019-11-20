@@ -9,6 +9,10 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*
 
 
@@ -85,25 +89,15 @@ main {
     grid-gap: 5em;
 }
 
-.section_grid_menu {
-    display: grid;
-    justify-content: center;
-    margin: 3em 0;
-    grid-template-columns: 700px;
-}
-
 .article_shadow {
     box-shadow: 0 0 1em #e2e2e2,0 0 1em #e2e2e2;
 }
 
-.menu {
+.article_index {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 450px;
-    height: 600px;
     text-align: center;
-    text-decoration: none;
 }
 
 @keyframes zoom_opacity {
@@ -146,6 +140,13 @@ main {
 
 .animation_index:hover {
     -webkit-animation: zoom_opacity 1s linear forwards;
+}
+
+.section_grid_menu {
+    display: grid;
+    justify-content: center;
+    margin: 3em 0;
+    grid-template-columns: 700px;
 }
 
 /*
@@ -197,8 +198,6 @@ main {
     margin: 45px 30px;
     grid-template-columns: repeat(5,20%);
     grid-template-rows: repeat(10,auto);
-    grid-column: 2/4;
-    grid-row: 1;
 }
 
 /*
@@ -220,6 +219,9 @@ main {
     font-size: 5em;
 }
 
+.icon {
+    width: 11em;
+}
 .first_title_h1 {
     margin-top: 0;
     font-family: 'Niconne',cursive;
@@ -232,13 +234,10 @@ main {
     color: #3E141A;
 }
 
-.icon {
-    width: 11em;
-}
-
 .second_title_h1 {
     -webkit-text-fill-color: transparent;
     font-family: 'Croissant One',cursive;
+    font-weight: lighter;
     font-size: 3.5em;
     background: -webkit-linear-gradient(300deg,#D8852E, #915DFC);
     -webkit-background-clip: text;
@@ -290,7 +289,7 @@ main {
 
 */
 
-.titre_article{
+.titre_article {
     text-align: center;
     grid-column: 1/6;
     grid-row: 2;
@@ -361,7 +360,6 @@ main {
     padding-left: 0;
     text-align: right;
     font-size: 15px;
-    font-weight: lighter;
 }
 
 .title_menu {
@@ -376,8 +374,7 @@ main {
     width: 0;
     height: 0.1em;
     background-color: rgba(255,255,255,0.1);
-    -webkit-transition: 1s ease-in-out 0s;
-    transition: 1s ease 0s;
+    transition: 1s ease-in-out;
 }
 
 .title_menu:hover::before {
