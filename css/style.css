@@ -423,7 +423,7 @@ aside {
     position: absolute;
     padding-left: 10px;
     overflow: hidden;
-    animation: ellipsis steps(4,end) 1.3s infinite;
+    animation: ellipsis steps(4) 1.3s infinite;
 }
 
 @keyframes ellipsis {
