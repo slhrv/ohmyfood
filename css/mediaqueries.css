@@ -36,13 +36,13 @@
         grid-column: 1;
     }
 
-    .first_title_h1,
-    .third_title_h1 {
+    .first_title_h2,
+    .third_title_h2 {
         font-size: 4em;
     }
 
-    .second_title_h1,
-    .fourth_title_h1 {
+    .second_title_h2,
+    .fourth_title_h2 {
         font-size: 3.5em;
     }
 
@@ -121,13 +121,13 @@
         grid-template-columns: 700px;
     }
 
-    .first_title_h1,
-    .third_title_h1 {
+    .first_title_h2,
+    .third_title_h2 {
         font-size: 4em;
     }
 
-    .second_title_h1,
-    .fourth_title_h1 {
+    .second_title_h2,
+    .fourth_title_h2 {
         font-size: 3.8em;
     }
 

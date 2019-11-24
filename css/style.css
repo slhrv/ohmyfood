@@ -222,19 +222,19 @@ main {
 .icon {
     width: 11em;
 }
-.first_title_h1 {
+.first_title_h2 {
     margin-top: 0;
     font-family: 'Niconne',cursive;
     color: #3E141A;
 }
 
-.first_title_h2 {
+.first_title_h3 {
     text-transform: uppercase;
     font-family: 'Tillana',cursive;
     color: #3E141A;
 }
 
-.second_title_h1 {
+.second_title_h2 {
     -webkit-text-fill-color: transparent;
     font-family: 'Croissant One',cursive;
     font-weight: lighter;
@@ -243,12 +243,12 @@ main {
     -webkit-background-clip: text;
 }
 
-.second_title_h2 {
+.second_title_h3 {
     font-family: 'Merriweather',serif;
     color: #D8852E;
 }
 
-.third_title_h1 {
+.third_title_h2 {
     -webkit-text-fill-color: transparent;
     font-family: 'Niconne',cursive;
     font-weight: lighter;
@@ -256,12 +256,12 @@ main {
     -webkit-background-clip: text;
 }
 
-.third_title_h2 {
+.third_title_h3 {
     font-family: 'Bad Script',cursive;
     color: #399DFA;
 }
 
-.fourth_title_h1 {
+.fourth_title_h2 {
     -webkit-text-fill-color: transparent;
     font-family: 'Kaushan Script',cursive;
     font-size: 5em;
@@ -269,7 +269,7 @@ main {
     -webkit-background-clip: text;
 }
 
-.fourth_title_h2 {
+.fourth_title_h3 {
     font-family: 'Bad Script',cursive;
     color: #72BF56;
 }
@@ -405,21 +405,20 @@ aside {
     width: 50em;
     height: 5em;
     margin: 7em auto;
-    border: solid 1px #579C87;
     border-radius: 15px;
     text-align: center;
     color: #FCCA47;
     background-color: #579C87;
 }
 
-.aside_h3 {
+.aside_h4 {
     margin: 0;
     font-size: 3em;
     font-weight: lighter;
     letter-spacing: 0.1em;
 }
 
-.aside_h3::after {
+.aside_h4::after {
     content: "\2026";
     position: absolute;
     padding-left: 10px;
